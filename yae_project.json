@@ -1,8 +1,9 @@
 {
     "name": "YAE_Example",
     "modules_dir": "src",
+    "cloned_dependencies_dir": "cloned_dependencies",
+    "enable_lto_globally": true,
     "cpp": {
-        "standard": "20"
-    },
-    "cloned_modules_dir": "cloned_modules"
+        "standard": "23"
+    }
 }
